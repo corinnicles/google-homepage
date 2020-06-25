@@ -7,11 +7,19 @@
         display: block;
         margin: auto;
         width: 50%;
+        padding: 20% 0 10% 20%
     }
     navbar{
         float: right;
     }
-    #searchbox
+    .searchbox{
+        display: flex;
+        margin: auto;
+        width: 50%;
+    }
+    button{
+        
+    }
     footer{
 
     }
@@ -25,8 +33,9 @@
     <div id="logo" title="Google" class="show-logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
-    <div id="searchbox">
-        <input type="url"> Search Google or type a URL</input>
+    <div class="searchbox">
+        <input id="searchbox" type="text" text="Search Google or type a URL"></input>
+        <button id="search">Search</button>
     </div>
 <footer>
     <a href="">link 1</a>
