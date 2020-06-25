@@ -16,6 +16,9 @@
         width: 50%;
         padding: 20% 0 5% 20%
     }
+    .nav{
+        padding-right: 10px;
+    }
     navbar{
         float: right;
     }
@@ -42,21 +45,27 @@
         padding: 5%;
     }
     .footer-link{
-
+        padding: 7%;
+        text-align: center;
+        background-color: rgba(0,0,0,0.17);
+        border-radius: 50%;
+        box-sizing: border-box;
+        margin: 12px;
+        align-content: center;
     }
 </style>
 <navbar>
-    <a href="">Gmail</a>
-    <a href="">Images</a>
-    <a href="README.md">"Faux" Google?</a>
+    <a class=nav href="">Gmail</a>
+    <a class=nav href="">Images</a>
+    <a class=nav href="README.md">"Faux" Google?</a>
 </navbar>
 <body>
     <div id="logo" title="Google" class="show-logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
     <div class="search">
-        <input id="searchbox" type="text" placeholder="Search Google or type a URL"></input>
-        <button id="search">Search</button>
+        <input id="searchbox" size= "32" type="text" placeholder="Search Google or type a URL"></input>
+        <button id="search" type="button">Search</button>
     </div>
 <footer>
     <a class="footer-link" href="">link 1</a>
